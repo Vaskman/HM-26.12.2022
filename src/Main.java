@@ -73,7 +73,7 @@ public class Main {
         System.out.println("ЗАДАЧА 8");
         System.out.println("задание 1");
         var totalTime=640;
-        System.out.println("Общее время"+"="+totalTime+"ч.");
+        System.out.println("Общее время "+"="+totalTime+"ч.");
         var forOneTime=8;
         System.out.println("На одного сотрудника"+"="+forOneTime+"ч.");
         var howManyPeopleWork=totalTime/forOneTime;
