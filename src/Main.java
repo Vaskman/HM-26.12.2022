@@ -3,6 +3,7 @@ public class Main {
         task1();
         task2();
         task3();
+        task4();
     }
 
     public static void task1 () {
@@ -50,5 +51,21 @@ public class Main {
         System.out.println(frog);
 
 
+    }
+    public static void task4(){
+        System.out.println("Задача 6");
+        var weight1=78.2;
+        System.out.println("вес первого боксёра"+"=" +  weight1 + "кг");
+        var weight2=82.7;
+        System.out.println("вес второго боксёра"+"=" +weight2 + "кг");
+        var finalWeight = weight1 + weight2;
+        System.out.println("Итоговый вес боксёров"+"=" +finalWeight +"кг");
+        var weightDifference= weight2 - weight1;
+        System.out.println("Разница в весе боксёров"+"="+weightDifference+"кг");
+        System.out.println("Задача 7");
+        var weightDifference1 = weight2-weight1;
+        System.out.println("Разница в весе боксёров первый вариант"+ "=" +weightDifference1 + "кг");
+        var weightDifference2 = weight2 % weight1;
+        System.out.println("Разница в весе боксёров второй вариант"+"=" + weightDifference2 +"кг");
     }
 }
